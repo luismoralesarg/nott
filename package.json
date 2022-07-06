@@ -1,0 +1,32 @@
+{
+  "name": "nott",
+  "version": "1.0.0",
+  "description": "Simple CICD Webhooks Tool",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "cicd"
+  ],
+  "author": "Luis Morales",
+  "license": "MIT",
+  "dependencies": {
+    "@gitbeaker/node": "^35.6.0",
+    "cors": "^2.8.5",
+    "dockerode": "^3.3.1",
+    "easy-express-crud-generator": "^1.4.9",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "eslint": "^8.11.0",
+    "mocha": "^9.2.2",
+    "nodemon": "^2.0.15",
+    "webpack": "^5.70.0"
+  }
+}

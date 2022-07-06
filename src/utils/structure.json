@@ -1,0 +1,27 @@
+{
+    "folders": [
+        {
+            "name": "src",
+            "child_folders": [
+                {
+                    "name": "middlewares"
+                },
+                {
+                    "name": "controllers"
+                },
+                {
+                    "name":"models"
+                },
+                {
+                    "name":"routes"
+                },
+                {
+                    "name":"config"
+                },
+                {
+                    "name":"utils"
+                }
+            ]
+        }
+    ]
+}
